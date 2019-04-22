@@ -5,10 +5,7 @@
  * @see https://github.com/neutrinojs/webpack-chain
  */
 module.exports = {
-  productionSourceMap: false,
-  devServer: {
-    proxy: {},
-  },
+  devServer: {},
   chainWebpack: config => {
 
   },
