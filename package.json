@@ -1,0 +1,19 @@
+{
+  "name": "react-cli-demo",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "repository": "https://github.com/zlab/react-cli-demo",
+  "scripts": {
+    "serve": "react-cli-service serve",
+    "build": "react-cli-service build --report"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "react-cli-service": "^1.6.2"
+  }
+}
