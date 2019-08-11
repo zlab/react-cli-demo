@@ -10,7 +10,7 @@
 ## build
 `npm run build` or `yarn build`
 
-## 配置参考
+## more config
 [@vue/cli3](https://cli.vuejs.org/zh/config/)
 
 [webpack-chain](https://github.com/neutrinojs/webpack-chain)
