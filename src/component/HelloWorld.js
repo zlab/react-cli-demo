@@ -1,13 +1,13 @@
 import React from 'react';
 
-export default class HelloWorld extends React.Component {
+import styles from './index.module.css';
 
-  render() {
-    return (
-      <div>
-        <h2>Hello</h2>
-        <p>React Cli Service</p>
-      </div>
-    );
-  }
-}
+export default () => {
+
+  return (
+    <div className={styles.hello}>
+      <h2>Hello Component</h2>
+      <p>React Cli Service</p>
+    </div>
+  );
+};

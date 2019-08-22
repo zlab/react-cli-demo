@@ -2,14 +2,12 @@ import React from 'react';
 
 import HelloWorld from 'src/component/HelloWorld';
 
-export default class App extends React.Component {
+export default () => {
 
-  render() {
-    return (
-      <div>
-        <h1>Demo</h1>
-        <HelloWorld/>
-      </div>
-    );
-  }
-}
+  return (
+    <div>
+      <h1>React App</h1>
+      <HelloWorld/>
+    </div>
+  );
+};
