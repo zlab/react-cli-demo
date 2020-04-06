@@ -17,6 +17,7 @@ module.exports = {
   devServer: {
     progress: false,
     compress: true,
+    open: true,
     proxy: {
       '/api2': {
         target: 'https://api.xxx.cn',
